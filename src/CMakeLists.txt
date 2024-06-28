@@ -1,7 +1,8 @@
 
 set(LIBRARY_NAME "ulog")
 set(LIBRARY_SOURCE_FILES
-   ulogger.cpp )
+   ulogger.cpp
+   base_logger.cpp)
 
 add_library(${LIBRARY_NAME} ${LIBRARY_SOURCE_FILES})
 
